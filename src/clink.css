@@ -1,167 +1,69 @@
-#class {
-
-    background-color: rgb(192, 187, 179);
-    margin-top: 0px;
-    padding: 6px;
-  }
-
-  #para {
-
-    font-weight: bold;
-    margin-left: 15px;
-    font-size: 38px;
-    margin-top: 0px;
-
-  }
-
-  .body {
-
-    margin: 0px;
-  }
-
-  ul {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+body{
+    margin:0px;
+}
+ul{
+    list-style-type:none;
+    text-align:justify;
+    overflow:hidden;
+    background:black;
+    margin-top:0px;
+    padding-inline-start: 0px;
+    margin-bottom:0px;
 }
 
- li {
+#header h1{
+    background:gray;
+    padding:20px;
+    margin-bottom:0px;
+}
+#content {
+  float:left;
+  width:70%;  
+  overflow:auto;
+  padding:1%;
+}
+#main{
+    display:flex;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+}
+#sidebar{
+    padding-top:0px;
+    float:right;
+    width:29%;
+    background:rgb(216, 213, 213);
+    padding:15px;
+padding-bottom:20%;
+margin-right:0px;
+}
+#footer{
+    background:rgb(126, 118, 118);
+    text-align:right;
+    margin:0px;
+    padding:0px;
+}
+#footer p{
+    margin:0px;
+    padding:2%;
+}
+li{
+ 
+    float:left;
 
-  float: left;
 }
 
-li a {
-
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-border-left: white;
+li a{
+    text-decoration:none;
+    display:block;
+    color:white;
+    text-align:center;
+    padding: 7px;  
+    border-right-style: solid;
+    border-right-color:white;
+    border-width:1px;
 }
 
 li a:hover {
-
- background-color: rgb(100, 107, 98);
- 
-
-}
-
-.active {
-
     background-color: green;
-}
-
-.float {
-
-   margin-top: 2px;
-
-}
-
-.class {
-
-    float: left;
-}
-
-.floater {
-
-    margin-left: -258px;
-}
-
-.floatingo {
-
-    margin-left: 58px;
-}
-
-.floatingos {
-
-    margin-left: 82px ;
-}
-
-.classy {
-
-    margin-left: 88px;
-}
-
-#parag {
-
-    margin-left: 28px;
-    color: rgb(8, 101, 129);
-}
-
-.floatingpara {
-
-    float: left;
-    width: 49%;
-    height: 300px;
-    padding: 28px;
-    margin-top: -21px;
-    overflow: auto;
-}
-
-
-#classyi {
-
-background-color: rgba(216, 213, 208, 0.87);
-margin-top: 22rem;
-padding: 6px;
-
-}
-
-#parog1 {
-
- color: rgb(10, 10, 10);  
- margin-left: 62em;    
-
-}
-
-.columni {
-
-float: right;
-width: 42%;
-padding: -13rem;
- 
-margin-top: -21px;
-padding-top: 22rem;
-padding-left: 20px;
-}
-
-h2 {
-
- color: rgb(38, 96, 163);
- padding: 7px;
- padding-left: 4px;
-}
-
-#hello {
-
-margin-top: -25.2rem;
-padding: 3rem;
-padding-left: 1em;
-}
-
-#Click {
-
-padding-top: 0px;
-float: right;
-width: 29%;
-background-color: antiquewhite;
-padding: 15px;
-padding-bottom: 20%;
-margin-right: 0px;
-}
-
-#Aside {
-
-margin-top: 1rem;
-}
-
-#Clicki {
-
-margin-top: 2rem;
-
-}
-
+  }
